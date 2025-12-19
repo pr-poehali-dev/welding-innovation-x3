@@ -18,7 +18,7 @@ const Index = () => {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="https://cdn.poehali.dev/files/лого без фона 2.png" alt="X3 Engineering" className="h-10 w-auto" />
+            <img src="https://cdn.poehali.dev/files/лого без фона 2.png" alt="X3 Engineering" className="h-12 md:h-14 w-auto" />
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <button onClick={() => scrollToSection("home")} className="text-sm font-medium hover:text-primary transition-colors">
@@ -513,7 +513,7 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="https://cdn.poehali.dev/files/лого без фона 2.png" alt="X3 Engineering" className="h-8 w-auto" />
+                <img src="https://cdn.poehali.dev/files/лого без фона 2.png" alt="X3 Engineering" className="h-10 w-auto" />
               </div>
               <p className="text-sm text-muted-foreground">
                 Инновационное сварочное оборудование для российской промышленности
